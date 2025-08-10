@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحتي الشخصية</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        nav {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>أهلاً بك في موقعي الشخصي</h1>
+        <p>أنا مطور ويب وأحب مشاركة أفكاري مع العالم 🌍</p>
+    </header>
+
+    <nav>
+        <a href="#about">من أنا</a>
+        <a href="#projects">مشاريعي</a>
+        <a href="#contact">تواصل معي</a>
+    </nav>
+
+    <section id="about">
+        <div class="card">
+            <h2>من أنا؟</h2>
+            <p>اسمي [ضع اسمك هنا]، مطور ومصمم مواقع، أعمل على تحويل الأفكار إلى مواقع جميلة وسهلة الاستخدام.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="card">
+            <h2>مشاريعي</h2>
+            <p>قريباً سأضيف هنا بعض الأعمال التي أنجزتها.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="card">
+            <h2>تواصل معي</h2>
+            <p>📧 البريد الإلكتروني: example@email.com</p>
+            <p>📱 رقم الهاتف: 000000000</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 جميع الحقوق محفوظة
+    </footer>
+
+</body>
+</html>
